@@ -1,0 +1,31 @@
+form {
+    background-color: #efefef;
+    margin: 0 auto;
+    text-align: center;
+    padding:45px 0 35px 0;
+    z-index:8;
+    width: 100%;
+
+    p {
+        display: inline;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .fa-location-dot {
+        padding-right:10px;
+        font-size:24px;
+    }
+
+    input {
+        border:none;
+        background-color: #efefef;
+        padding:10px;
+        word-wrap: break-word;
+    
+        &::placeholder {
+            color:black;
+            font-size: 30px;
+        }
+    }
+}
