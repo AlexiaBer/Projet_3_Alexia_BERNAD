@@ -1,0 +1,143 @@
+.two-sections {
+    @media screen and (min-width:1000px) {
+        display: flex;  
+        flex-direction:row-reverse; 
+    }
+
+}
+
+.search-section {
+    background-color:rgb(246, 246, 246);
+    display:flex;
+    flex-direction:column;
+    align-items: center; 
+    padding-bottom:60px;
+    
+    h1 {
+        font-weight:800;
+        text-align:center;
+        font-size: 60px;
+        padding-left:15%;
+        padding-right:15%;
+        padding-top:10%;
+        margin:0px;
+    }
+
+    p {
+        font-family:'Roboto';
+        font-weight:200;
+        text-align:center;
+        padding: 5%;
+        font-size:30px;
+        margin:0;
+    }
+
+    @media screen and (min-width:1000px) {
+        width:50%;
+
+        h1 {
+            padding:50px;
+            text-align: center;
+            font-size:35px;
+            }
+
+        .button {
+            font-size:25px;
+            margin-top:70px;
+            margin-bottom:0px;
+            }
+
+        p {
+            font-size:25px;
+            }
+    }
+}
+
+.fonction-section {
+
+    h2 {
+        margin-left:50px;
+        padding:60px 0 30px 0px;
+    }
+
+    @media screen and (min-width:1000px) {
+    
+        width:50%;
+    
+        h2 {
+            padding:50px;
+            text-align:center;
+            font-size:35px;
+            margin:0;
+        }
+
+        .all-fonctions {
+            padding: 10px 20px 70px 20px;
+        }
+
+        .fonction {
+            font-size:25px;
+            width:85%;
+
+            i {
+                padding-right:0;
+            }
+
+            p:nth-child(3) {
+                padding:0;
+            }
+        }
+    } 
+}
+
+.fonction-section__all-fonctions {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:40px;
+    padding: 10px 20px 30px 20px;
+}
+
+.all-fonctions__fonction {
+    border-radius:30px;
+    box-shadow:0px 10px 20px rgb(219, 218, 218);
+    background-color:rgb(246, 246, 246);
+    display:flex;
+    flex-direction: row;
+    align-items:baseline;
+    gap:20px;
+    font-weight: 700;
+    font-size:35px;
+    width:70%;
+
+    &:hover {
+        background-color:#f0e5fe;   
+    }
+
+    p:nth-child(3) {
+        padding:15px;
+    }
+
+    i {
+        color:#777777;
+        padding-right:27px;
+    }
+    
+    &:hover i {
+        color:$primary;    
+    }
+}
+    
+.fonction__number {
+    width:35px;
+    height:35px;
+    border-radius:25px;
+    background-color:$primary;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+    left: -20px;
+    font-size:25px;
+}

@@ -29,4 +29,11 @@ body {
     margin:0;
     margin-left:auto;
     margin-right: auto;
+    font-family:'Roboto';
+
+    @media screen and (min-width:1500px) {
+        width:1450px;
+        margin-left:auto;
+        margin-right: auto;
+    }
 }

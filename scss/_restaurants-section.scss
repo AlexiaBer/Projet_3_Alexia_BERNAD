@@ -14,7 +14,7 @@
     gap:35px;
 }
 
-.restaurant-article {
+.two-restaurants__restaurant-article {
     border-radius:15px;
     box-shadow:0px 0px 10px rgb(217 216 216);
     background-color:white;
@@ -39,7 +39,7 @@
     }
 }
 
-.new {
+.restaurant-article__new {
     position:absolute;
     top:5px;
     right:15px;
@@ -91,7 +91,7 @@ article img {
     -webkit-text-fill-color: transparent;
 }
 
-.hearts {
+.restaurant-article__hearts {
     &:hover .empty-heart {
     visibility: hidden;
     }
