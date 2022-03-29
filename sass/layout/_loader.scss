@@ -1,0 +1,42 @@
+.loading {
+    position:fixed;
+    height:100%;
+    width:100%;
+    vertical-align: middle;
+    background-color:rgb(246, 246, 246);
+    animation:opacity 2s 2s forwards;
+    z-index:10;
+
+        div {
+            font-family: 'Shrikhand';
+            font-size:40px;
+            width:100px;
+            margin-left:auto;
+            margin-right:auto;
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%, -50%);
+
+                span:nth-child(1) {
+                    color:$primary;
+                    opacity: 0;
+                    animation: loading 0.3s;
+                    animation-iteration-count: infinite;
+                }
+
+                span:nth-child(2) {
+                    color:$tertiary;
+                    opacity:0;
+                    animation: loading 0.3s 0.4s;
+                    animation-iteration-count: infinite;
+                }
+
+                span:nth-child(3) {
+                    color:$secondary;
+                    opacity: 0;
+                    animation: loading 0.3s 0.8s;
+                    animation-iteration-count: infinite;
+                }
+        }
+    }

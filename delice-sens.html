@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>ohmyfood</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Shrikhand&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+
+<head>
+    <meta charset="utf-8">
+    <title>ohmyfood</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Shrikhand&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    </head>
+</head>
 
-    <body>
-        <div class="mainwrapper">
-            <header class="restaurant-header">
-                <img src="images/logo/ohmyfood.png">
-                <div>
-                    <img class="header-photo" src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Photo du restaurant A la française">
+<body>
+    <div class="restaurant-mainwrapper">
+        <header class="restaurant-header">
+            <a href="index.html">
+                <i class="fa-solid fa-arrow-left"></i>
+            </a>
+            <img class="header-logo" src="images/logo/ohmyfood.png">
+            <div>
+                <img class="header-photo" src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                    alt="Photo du restaurant A la française">
+            </div>
+        </header>
+        <section class="main-section">
+            <div class="restaurant-title">
+                <h2>Le délice des sens</h2>
+                <div class="restaurant-title__hearts">
+                    <i class="fa-regular fa-heart restaurant-empty-heart"></i>
+                    <i class="fa-solid fa-heart restaurant-full-heart"></i>
                 </div>
-            </header>
-                <div>
-                    <h2 class="restaurant-title">Le délice des sens</h2>
-                    <div>
-                        <i class="fa-regular fa-heart"></i>
-                    </div>
-                </div>
-            <section class="main-section">
-                           <h3>ENTRÉES</h3>
-                <div class="underline"></div>
-                <div class="three-dishes">
-                    <article class="dish">
+            </div>
+            <div class="all-dishes">
+                <div class="all-dishes__three-dishes">
+                    <h3>ENTRÉES</h3>
+                    <div class="underline"></div>
+                    <article class="three-dishes__dish">
                         <div>
                             <h4>
                                 Tartare de thon
@@ -41,30 +49,30 @@
                                 Assaisonné au yuzu
                             </p>
                         </div>
-                        <div class="price">
+                        <div>
                             25€
                         </div>
                         <div>
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
                     </article>
-                    <article class="dish">
+                    <article class="three-dishes__dish">
                         <div>
                             <h4>
-                                Bouchée de homard croustillant 
+                                Bouchée de homard croustillant
                             </h4>
-                            <p>  
-                            Et sa farandole de petits légumes
+                            <p>
+                                Et sa farandole de petits légumes
                             </p>
                         </div>
-                        <div class="price">
+                        <div>
                             35€
                         </div>
                         <div>
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
                     </article>
-                    <article class="dish">
+                    <article class="three-dishes__dish">
                         <div>
                             <h4>
                                 Velouté de cèpes
@@ -73,18 +81,18 @@
                                 Aux truffes
                             </p>
                         </div>
-                        <div class="price">
+                        <div>
                             20€
                         </div>
                         <div>
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
-                    </article>  
+                    </article>
                 </div>
+                <div class="all-dishes__three-dishes">
                     <h3>PLATS</h3>
                     <div class="underline"></div>
-                <div class="three-dishes">
-                    <article class="dish">
+                    <article class="three-dishes__dish">
                         <div>
                             <h4>
                                 Poulet rôti aux herbes de Provence
@@ -93,30 +101,30 @@
                                 Et sa crème de truffe
                             </p>
                         </div>
-                        <div class="price">
+                        <div>
                             40€
                         </div>
                         <div>
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
-                    </article>  
-                    <article class="dish">
+                    </article>
+                    <article class="three-dishes__dish">
                         <div>
                             <h4>
-                                Langouste rôtie 
+                                Langouste rôtie
                             </h4>
                             <p>
                                 Et ses légumes de saison
                             </p>
                         </div>
-                        <div class="price">
+                        <div>
                             35€
                         </div>
                         <div>
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
-                    </article>  
-                    <article class="dish">
+                    </article>
+                    <article class="three-dishes__dish">
                         <div>
                             <h4>
                                 Côte de boeuf Angus
@@ -125,18 +133,18 @@
                                 Et sa purée de panais
                             </p>
                         </div>
-                        <div class="price">
+                        <div>
                             44€
                         </div>
                         <div>
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
-                    </article>  
+                    </article>
                 </div>
+                <div class="all-dishes__three-dishes">
                     <h3>DESSERTS</h3>
                     <div class="underline"></div>
-                <div class="three-dishes">
-                    <article class="dish">
+                    <article class="three-dishes__dish">
                         <div>
                             <h4>
                                 Farandole de desserts
@@ -145,69 +153,75 @@
                                 Du chef
                             </p>
                         </div>
-                        <div class="price">
+                        <div>
                             18€
                         </div>
                         <div>
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
-                    </article>  
-                    <article class="dish">
+                    </article>
+                    <article class="three-dishes__dish">
                         <div>
                             <h4>
-                                Crème brulée 
+                                Crème brûlée
                             </h4>
                             <p>
                                 Revisitée
                             </p>
                         </div>
-                        <div class="price">
+                        <div>
                             22€
                         </div>
                         <div>
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
-                    </article>  
-                    <article class="dish">
+                    </article>
+                    <article class="three-dishes__dish">
                         <div>
                             <h4>
                                 Tiramisu
                             </h4>
                             <p>
-                                À la noisette
+                                A la noisette
                             </p>
                         </div>
-                        <div class="price">
+                        <div>
                             23€
                         </div>
                         <div>
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
-                    </article>  
+                    </article>
                 </div>
-            </section>
-            <div class="search-button">
-                <a href="#">Commander</a>
             </div>
-        </div>
-
-        <footer>
-            <p class="logo-text">
-                ohmyfood
-            </p>
-            <ul>
-                <li>
-                    <i class="fa-solid fa-utensils"></i> 
-                    Proposer un restaurant
-                </li>
-                <li> 
-                    <i class="fa-solid fa-handshake-angle"></i>
-                    Devenir partenaire
-                </li>
-                <li>Mentions légales</li>
-                <li>Contact</li>
-            </ul>
-        </footer>
-    </body>
+            <div class="button-div">
+                <a href="#" class="button">Commander</a>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p class="logo-text">
+            ohmyfood
+        </p>
+        <ul>
+            <li>
+                <i class="fa-solid fa-utensils"></i>
+                Proposer un restaurant
+            </li>
+            <li>
+                <i class="fa-solid fa-handshake-angle"></i>
+                Devenir partenaire
+            </li>
+            <li>
+                Mentions légales
+            </li>
+            <li>
+                <a href="mailto:pasdidee@voila.com">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
 
 </html>

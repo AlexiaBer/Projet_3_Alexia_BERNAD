@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>ohmyfood</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Shrikhand&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+
+<head>
+    <meta charset="utf-8">
+    <title>ohmyfood</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Shrikhand&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    </head>
+</head>
 
-    <body>
-        <div class="mainwrapper">
-            <header class="restaurant-header">
-                <img src="images/logo/ohmyfood.png">
-                <div>
-                    <img class="header-photo" src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="Photo du restaurant A la française">
+<body>
+    <div class="restaurant-mainwrapper">
+        <header class="restaurant-header">
+            <a href="index.html">
+                <i class="fa-solid fa-arrow-left"></i>
+            </a>
+            <img class="header-logo" src="images/logo/ohmyfood.png">
+            <div>
+                <img class="header-photo" src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
+                    alt="Photo du restaurant A la française">
+            </div>
+        </header>
+        <section class="main-section">
+            <div class="restaurant-title">
+                <h2>La note enchantée</h2>
+                <div class="restaurant-title__hearts">
+                    <i class="fa-regular fa-heart restaurant-empty-heart"></i>
+                    <i class="fa-solid fa-heart restaurant-full-heart"></i>
                 </div>
-            </header>
-                <div>
-                    <h2 class="restaurant-title">La note enchantée</h2>
-                    <div>
-                        <i class="fa-regular fa-heart"></i>
-                    </div>
-                </div>
-            <section class="main-section">
-                           <h3>ENTRÉES</h3>
-                <div class="underline"></div>
-                <div class="three-dishes">
-                    <article class="dish">
+            </div>
+            <div class="all-dishes">
+                <div class="all-dishes__three-dishes">
+                    <h3>ENTRÉES</h3>
+                    <div class="underline"></div>
+                    <article class="three-dishes__dish">
                         <div>
                             <h4>
                                 Ravioles de foie gras
@@ -41,30 +49,30 @@
                                 Accompagnées de leur crème à la truffe
                             </p>
                         </div>
-                        <div class="price">
+                        <div>
                             25€
                         </div>
                         <div>
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
                     </article>
-                    <article class="dish">
+                    <article class="three-dishes__dish">
                         <div>
                             <h4>
-                                Caviar osciètre 
+                                Caviar osciètre
                             </h4>
                             <p>
                                 Sur blini à la farine de blé noir
                             </p>
                         </div>
-                        <div class="price">
+                        <div>
                             35€
                         </div>
                         <div>
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
                     </article>
-                    <article class="dish">
+                    <article class="three-dishes__dish">
                         <div>
                             <h4>
                                 Homard et espuma de potiron
@@ -73,14 +81,14 @@
                                 Mariné aux zestes d'orange
                             </p>
                         </div>
-                        <div class="price">
+                        <div>
                             20€
                         </div>
                         <div>
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
-                    </article>  
-                    <article class="dish">
+                    </article>
+                    <article class="three-dishes__dish">
                         <div>
                             <h4>
                                 Foie gras de canard cuit entier
@@ -89,18 +97,18 @@
                                 Confiture de figue et pain toasté
                             </p>
                         </div>
-                        <div class="price">
+                        <div>
                             35€
                         </div>
                         <div>
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
-                    </article>  
+                    </article>
                 </div>
+                <div class="all-dishes__three-dishes">
                     <h3>PLATS</h3>
                     <div class="underline"></div>
-                <div class="three-dishes">
-                    <article class="dish">
+                    <article class="three-dishes__dish">
                         <div>
                             <h4>
                                 Noix de coquilles Saint-Jacques
@@ -109,50 +117,50 @@
                                 Sur lit de purée de céleri-rave
                             </p>
                         </div>
-                        <div class="price">
+                        <div>
                             40€
                         </div>
                         <div>
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
-                    </article>  
-                    <article class="dish">
+                    </article>
+                    <article class="three-dishes__dish">
                         <div>
                             <h4>
-                                Langoustine poêlée
+                                Langouste poêlée
                             </h4>
                             <p>
                                 Purée de patate douce
                             </p>
                         </div>
-                        <div class="price">
+                        <div>
                             35€
                         </div>
                         <div>
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
-                    </article>  
-                    <article class="dish">
+                    </article>
+                    <article class="three-dishes__dish">
                         <div>
                             <h4>
-                                Mijoté de queue de boeuf 
+                                Mijoté de queue de boeuf
                             </h4>
                             <p>
                                 Et riz sauvage aux zestes de citron
                             </p>
                         </div>
-                        <div class="price">
+                        <div>
                             44€
                         </div>
                         <div>
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
-                    </article>  
+                    </article>
                 </div>
+                <div class="all-dishes__three-dishes">
                     <h3>DESSERTS</h3>
                     <div class="underline"></div>
-                <div class="three-dishes">
-                    <article class="dish">
+                    <article class="three-dishes__dish">
                         <div>
                             <h4>
                                 Macaron noisette et chocolat
@@ -161,30 +169,30 @@
                                 Glace au caramel brun et sel de Guérande
                             </p>
                         </div>
-                        <div class="price">
+                        <div>
                             18€
                         </div>
                         <div>
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
-                    </article>  
-                    <article class="dish">
+                    </article>
+                    <article class="three-dishes__dish">
                         <div>
                             <h4>
-                                Baba au rhum revisité 
+                                Baba au rhum revisité
                             </h4>
                             <p>
                                 Avec son coulis de citron
                             </p>
                         </div>
-                        <div class="price">
+                        <div>
                             22€
                         </div>
                         <div>
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
-                    </article>  
-                    <article class="dish">
+                    </article>
+                    <article class="three-dishes__dish">
                         <div>
                             <h4>
                                 Tarte au citron meringuée
@@ -193,37 +201,44 @@
                                 Déstructurée
                             </p>
                         </div>
-                        <div class="price">
+                        <div>
                             23€
                         </div>
                         <div>
                             <i class="fa-solid fa-circle-check"></i>
                         </div>
-                    </article>  
+                    </article>
                 </div>
-            </section>
-            <div class="search-button">
-                <a href="#">Commander</a>
             </div>
-        </div>
+            <div class="button-div">
+                <a href="#" class="button">Commander</a>
+            </div>
+        </section>
+    </div>
 
-        <footer>
-            <p class="logo-text">
-                ohmyfood
-            </p>
-            <ul>
-                <li>
-                    <i class="fa-solid fa-utensils"></i> 
-                    Proposer un restaurant
-                </li>
-                <li> 
-                    <i class="fa-solid fa-handshake-angle"></i>
-                    Devenir partenaire
-                </li>
-                <li>Mentions légales</li>
-                <li>Contact</li>
-            </ul>
-        </footer>
-    </body>
+    <footer>
+        <p class="logo-text">
+            ohmyfood
+        </p>
+        <ul>
+            <li>
+                <i class="fa-solid fa-utensils"></i>
+                Proposer un restaurant
+            </li>
+            <li>
+                <i class="fa-solid fa-handshake-angle"></i>
+                Devenir partenaire
+            </li>
+            <li>
+                Mentions légales
+            </li>
+            <li>
+                <a href="mailto:pasdidee@voila.com">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
 
 </html>

@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+}
+
+.mainwrapper {
+    margin-left:auto;
+    margin-right: auto;
+    font-family: 'Roboto';
+
+    @media #{$largescreen} {
+        max-width:1450px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+}
+
+a {
+    text-decoration:none;
+    color:black;
+}
+
+h2 {
+    padding-left:20px;
+    font-weight:800;
+    font-size:55px;
+    padding:20px 0 0 0;
+    margin: 0 0 15px 25px;
+    }

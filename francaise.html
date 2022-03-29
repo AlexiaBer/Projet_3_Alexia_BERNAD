@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>ohmyfood</title>
-        <link rel="stylesheet" href="styles.scss/style.css">
+        <link rel="stylesheet" href="public/css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Shrikhand&display=swap" rel="stylesheet">
@@ -17,6 +17,9 @@
     <body>
         <div class="restaurant-mainwrapper">
             <header class="restaurant-header">
+                <a href="index.html">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </a>
                 <img class="header-logo" src="images/logo/ohmyfood.png">
                 <div>
                     <img class="header-photo" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Photo du restaurant A la française">
@@ -25,9 +28,9 @@
             <section class="main-section">
                 <div class="restaurant-title">
                     <h2 >À la française</h2>
-                    <div class="hearts">
-                        <i class="fa-regular fa-heart empty-heart"></i>
-                        <i class="fa-solid fa-heart full-heart"></i>
+                    <div class="restaurant-title__hearts">
+                        <i class="fa-regular fa-heart restaurant-empty-heart"></i>
+                        <i class="fa-solid fa-heart restaurant-full-heart"></i>
                     </div>
                 </div>
                 <div class="all-dishes">
@@ -188,10 +191,10 @@
                         </article>  
                     </div>
                 </div>
+                <div class="button-div">
+                    <a href="#" class="button">Commander</a>
+                </div>
             </section>
-            <div class="button">
-                <a href="#">Commander</a>
-            </div>
         </div>
 
         <footer>
@@ -207,8 +210,14 @@
                     <i class="fa-solid fa-handshake-angle"></i>
                     Devenir partenaire
                 </li>
-                <li>Mentions légales</li>
-                <li>Contact</li>
+                <li>
+                    Mentions légales
+                </li>
+                <li>
+                    <a href="mailto:pasdidee@voila.com">
+                        Contact
+                    </a>
+                </li>
             </ul>
         </footer>
     </body>
