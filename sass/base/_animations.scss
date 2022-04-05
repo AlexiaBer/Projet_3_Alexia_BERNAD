@@ -4,7 +4,7 @@
     }
     to {
         opacity:0;
-        transform:translateX(-10000%);
+        z-index:-10;
     }
 }
 
@@ -51,5 +51,14 @@
 @keyframes checkrotate {
     to {
         transform: rotate(360deg);
+    }
+}
+
+@keyframes heartanimation {
+    from {
+        transform:scale(0);
+    }
+    to {
+        transform:scale(1);
     }
 }

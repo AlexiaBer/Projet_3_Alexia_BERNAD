@@ -4,7 +4,7 @@
     width:100%;
     vertical-align: middle;
     background-color:rgb(246, 246, 246);
-    animation:opacity 2s 2s forwards;
+    animation:opacity 2.5s 2s forwards;
     z-index:10;
 
         div {
@@ -22,21 +22,21 @@
                     color:$primary;
                     opacity: 0;
                     animation: loading 0.3s;
-                    animation-iteration-count: infinite;
+                    animation-iteration-count: 7;
                 }
 
                 span:nth-child(2) {
                     color:$tertiary;
                     opacity:0;
                     animation: loading 0.3s 0.4s;
-                    animation-iteration-count: infinite;
+                    animation-iteration-count: 6;
                 }
 
                 span:nth-child(3) {
                     color:$secondary;
                     opacity: 0;
                     animation: loading 0.3s 0.8s;
-                    animation-iteration-count: infinite;
+                    animation-iteration-count: 5;
                 }
         }
     }
